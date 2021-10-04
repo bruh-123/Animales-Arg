@@ -1,0 +1,153 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Karla&family=Spectral:wght@800&display=swap");
+
+:root {
+	/* Colors */
+
+	/* Palette */
+	--DarkOiveGreen: #606c38;
+	--Cornsilk: #fefae0;
+	--Fawn: #dda15e;
+	--LiverDogs: #bc6c25;
+	/* Primary */
+	--primary-100: #d4d7d1;
+	--primary-200: #a9afa3;
+	--primary-300: #7e8674;
+	--primary-400: #535e46;
+	--primary-500: #283618;
+	--primary-600: #202b13;
+	--primary-700: #18200e;
+	--primary-800: #10160a;
+	--primary-900: #080b05;
+}
+
+body {
+	font-family: "Karla", sans-serif;
+	font-weight: 400;
+	color: var(--primary-900);
+	background-color: var(--Cornsilk);
+	height: 100vh;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	width: 100%;
+	display: block;
+	object-fit: cover;
+}
+
+button {
+	display: inline-block;
+	background: var(--primary-400);
+	color: white;
+	border: transparent;
+	padding: 0.3rem 0.75rem;
+	border-radius: 0.25rem;
+	cursor: pointer;
+}
+button:hover {
+	background-color: var(--primary-500);
+}
+
+/* ----------- 
+Nav-bar
+--------------*/
+
+.nav-bar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* position: fixed; */
+	/* background-color: var(--Fawn); */
+}
+
+.nav-center {
+	width: 90vw;
+	max-width: 1120px;
+}
+
+.nav-header {
+	height: 4rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	/* background-color: var(--primary-200); */
+}
+
+/* .nav-logo {
+	background-color: var(--primary-400);
+} */
+
+.nav-btn {
+	font-size: 1rem;
+	padding: 0.15rem 0.75rem;
+}
+
+.nav-links {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 0;
+	overflow: hidden;
+	transition: all ease-in 0.3s;
+}
+
+.nav-link {
+	list-style: none;
+	text-align: center;
+	width: 100%;
+	padding: 0.5rem 0;
+	border-top: solid 1px gray;
+	text-transform: capitalize;
+	font-size: 1rem;
+	color: var(--DarkOiveGreen);
+}
+
+.nav-link:hover {
+	background-color: var(--Fawn);
+	color: var(--primary-900);
+}
+
+.show-nav {
+	height: 11rem;
+}
+
+/* .arrow {
+	color: var(--LiverDogs);
+	font-size: 1.5rem;
+	position: fixed;
+	bottom: 4rem;
+	left: 0.5rem;
+} */
+
+/* ----------- 
+Footer
+--------------*/
+footer {
+	padding: 1rem 2rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 0 1rem;
+	background-color: var(--Fawn);
+	font-size: 0.5rem;
+}
+
+/* ----------- 
+Main page
+--------------*/
+
+main {
+	background-color: var(--primary-300);
+	height: 100%;
+	width: 85vw;
+	margin: 0 auto;
+}
