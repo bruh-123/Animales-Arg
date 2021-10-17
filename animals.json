@@ -1,0 +1,18 @@
+[
+	{
+		"name": "Yaguareté",
+		"taxonomy": {
+			"kingdom": "animalia",
+			"philum": "chordata",
+			"class": "mammalia",
+			"order": "carnivora",
+			"suborder": "feliformia",
+			"family": "felidae",
+			"subfamily": "pantherinae",
+			"genus": "panthera",
+			"species": "panthera onca"
+		},
+		"img": "./assets/animals/Panthera_onca_palustris.jpg",
+		"info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore velit debitis rem cum dolorem quibusdam eius iste laudantium beatae harum!"
+	}
+]

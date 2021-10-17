@@ -184,7 +184,7 @@ Hero
 	height: 50vh;
 	position: relative;
 	margin-bottom: 5rem;
-	background: url("yaguarete.jpg") center/cover no-repeat;
+	background: url("./assets/logos/yaguarete.jpg") center/cover no-repeat;
 	border-radius: 0.25rem;
 }
 
